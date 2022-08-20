@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/",
-            "text": "Ardan Simulasi 2022\n\n\nNo simulasi 19 .\n\n\nInstall git & mkdocs\n\n\nHalaman instalasi git dan mkdocs \ninstall-git-mkdocs.md\n\n\nperintah mkdocs\n\n\n\n\nmkdocs new [nama-dir]\n - Membuat project baru.\n\n\nmkdocs serve\n - Memnajalankan serve lokal sambil mengubah dokumen.\n\n\nmkdocs build\n - Build atau mengubah menjadi html.\n\n\nmkdocs help\n - Menampilkan perintah bantuan di mkdocs.\n\n\n\n\nLayout Dokumentasi\n\n\nmkdocs.yml    # File konfigurasi dari mkdocs.\ndocs/\n    index.md                    # Halaman index saat ini.\n    install-git-mkdocs.md       # Halaman instalasi git dan mkdocs.\n    dokumentasi-simulasi.md     # Halaman dokumentasi simulasi.",
+            "text": "Ardan Simulasi 2022\n\n\nNo simulasi 19 bisa di akses di url \nHasil Simulasi\n\n\nInstall git & mkdocs\n\n\nHalaman instalasi git dan mkdocs \ninstall-git-mkdocs.md\n\n\nperintah mkdocs\n\n\n\n\nmkdocs new [nama-dir]\n - Membuat project baru.\n\n\nmkdocs serve\n - Memnajalankan serve lokal sambil mengubah dokumen.\n\n\nmkdocs build\n - Build atau mengubah menjadi html.\n\n\nmkdocs help\n - Menampilkan perintah bantuan di mkdocs.\n\n\n\n\nLayout Dokumentasi\n\n\nmkdocs.yml    # File konfigurasi dari mkdocs.\ndocs/\n    index.md                    # Halaman index saat ini.\n    install-git-mkdocs.md       # Halaman instalasi git dan mkdocs.\n    dokumentasi-simulasi.md     # Halaman dokumentasi simulasi.",
             "title": "Home"
         },
         {
             "location": "/#ardan-simulasi-2022",
-            "text": "No simulasi 19 .",
+            "text": "No simulasi 19 bisa di akses di url  Hasil Simulasi",
             "title": "Ardan Simulasi 2022"
         },
         {
