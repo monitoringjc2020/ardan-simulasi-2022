@@ -1,0 +1,6 @@
+site_name: Ardan Simulasi 2022
+pages:
+    - Home: index.md
+    - Git-Mkdocs: install-git-mkdocs.md
+    - Dokumentasi: dokumentasi-simulasi.md
+theme: readthedocs
