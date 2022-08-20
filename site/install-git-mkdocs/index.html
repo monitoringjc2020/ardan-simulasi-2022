@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Git-Mkdocs - Ardan Simulasi 2022</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Git-Mkdocs";
+    var mkdocs_page_input_path = "install-git-mkdocs.md";
+    var mkdocs_page_url = "/install-git-mkdocs/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Ardan Simulasi 2022</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Git-Mkdocs</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#install-git-dan-mkdocs">Install Git dan Mkdocs</a></li>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../dokumentasi-simulasi/">Dokumentasi</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Ardan Simulasi 2022</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Git-Mkdocs</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="install-git-dan-mkdocs">Install Git dan Mkdocs</h1>
+<p>Karena komputer saya menggunakan ubuntu, maka saya gunakan perintah <code>apt install</code> untuk instalasinya:</p>
+<pre><code>
+ardan@ardan-X8DTU:~/Documents/github.com$ sudo apt install git mkdocs -y
+[sudo] password for ardan: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+git is already the newest version (1:2.17.1-1ubuntu0.12).
+The following packages were automatically installed and are no longer required:
+  libminizip1 linux-hwe-5.4-headers-5.4.0-121
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  fonts-font-awesome node-amdefine node-less node-source-map python3-jinja2
+  python3-livereload python3-markdown python3-markupsafe python3-pygments
+  python3-pyinotify python3-tornado
+Suggested packages:
+  mkdocs-doc ghp-import python-jinja2-doc python-livereload-doc coffeescript
+  node-uglify python-slimmer python-markdown-doc ttf-bitstream-vera
+  python-pyinotify-doc python3-pycurl python-tornado-doc python3-twisted
+The following NEW packages will be installed:
+  fonts-font-awesome mkdocs node-amdefine node-less node-source-map
+  python3-jinja2 python3-livereload python3-markdown python3-markupsafe
+  python3-pygments python3-pyinotify python3-tornado
+0 upgraded, 12 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2.146 kB of archives.
+After this operation, 9.674 kB of additional disk space will be used.
+Get:1 http://id.archive.ubuntu.com/ubuntu bionic/main amd64 fonts-font-awesome all 4.7.0~dfsg-3 [513 kB]
+Get:2 http://id.archive.ubuntu.com/ubuntu bionic/main amd64 python3-markupsafe amd64 1.0-1build1 [13,5 kB]
+Get:3 http://id.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3-jinja2 all 2.10-1ubuntu0.18.04.1 [95,4 kB]
+Get:4 http://id.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 python3-tornado amd64 4.5.3-1ubuntu0.2 [284 kB]
+Get:5 http://id.archive.ubuntu.com/ubuntu bionic/universe amd64 python3-livereload all 2.5.1-1 [20,9 kB]
+Get:6 http://id.archive.ubuntu.com/ubuntu bionic/universe amd64 python3-markdown all 2.6.9-1 [53,7 kB]
+Get:7 http://id.archive.ubuntu.com/ubuntu bionic/universe amd64 mkdocs all 0.16.3-2 [452 kB]
+Get:8 http://id.archive.ubuntu.com/ubuntu bionic/universe amd64 node-less all 1.6.3~dfsg-2 [71,2 kB]
+Get:9 http://id.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3-pygments all 2.2.0+dfsg-1ubuntu0.2 [574 kB]
+Get:10 http://id.archive.ubuntu.com/ubuntu bionic/main amd64 python3-pyinotify all 0.9.6-1 [24,7 kB]
+Get:11 http://id.archive.ubuntu.com/ubuntu bionic/universe amd64 node-amdefine all 0.1.0-1 [12,1 kB]
+Get:12 http://id.archive.ubuntu.com/ubuntu bionic/universe amd64 node-source-map all 0.5.7+dfsg-1 [31,5 kB]
+Fetched 2.146 kB in 4s (591 kB/s)           
+Selecting previously unselected package fonts-font-awesome.
+(Reading database ... 199462 files and directories currently installed.)
+Preparing to unpack .../00-fonts-font-awesome_4.7.0~dfsg-3_all.deb ...
+Unpacking fonts-font-awesome (4.7.0~dfsg-3) ...
+Selecting previously unselected package python3-markupsafe.
+Preparing to unpack .../01-python3-markupsafe_1.0-1build1_amd64.deb ...
+Unpacking python3-markupsafe (1.0-1build1) ...
+Selecting previously unselected package python3-jinja2.
+Preparing to unpack .../02-python3-jinja2_2.10-1ubuntu0.18.04.1_all.deb ...
+Unpacking python3-jinja2 (2.10-1ubuntu0.18.04.1) ...
+Selecting previously unselected package python3-tornado.
+Preparing to unpack .../03-python3-tornado_4.5.3-1ubuntu0.2_amd64.deb ...
+Unpacking python3-tornado (4.5.3-1ubuntu0.2) ...
+Selecting previously unselected package python3-livereload.
+Preparing to unpack .../04-python3-livereload_2.5.1-1_all.deb ...
+Unpacking python3-livereload (2.5.1-1) ...
+Selecting previously unselected package python3-markdown.
+Preparing to unpack .../05-python3-markdown_2.6.9-1_all.deb ...
+Unpacking python3-markdown (2.6.9-1) ...
+Selecting previously unselected package mkdocs.
+Preparing to unpack .../06-mkdocs_0.16.3-2_all.deb ...
+Unpacking mkdocs (0.16.3-2) ...
+Selecting previously unselected package node-less.
+Preparing to unpack .../07-node-less_1.6.3~dfsg-2_all.deb ...
+Unpacking node-less (1.6.3~dfsg-2) ...
+Selecting previously unselected package python3-pygments.
+Preparing to unpack .../08-python3-pygments_2.2.0+dfsg-1ubuntu0.2_all.deb ...
+Unpacking python3-pygments (2.2.0+dfsg-1ubuntu0.2) ...
+Selecting previously unselected package python3-pyinotify.
+Preparing to unpack .../09-python3-pyinotify_0.9.6-1_all.deb ...
+Unpacking python3-pyinotify (0.9.6-1) ...
+Selecting previously unselected package node-amdefine.
+Preparing to unpack .../10-node-amdefine_0.1.0-1_all.deb ...
+Unpacking node-amdefine (0.1.0-1) ...
+Selecting previously unselected package node-source-map.
+Preparing to unpack .../11-node-source-map_0.5.7+dfsg-1_all.deb ...
+Unpacking node-source-map (0.5.7+dfsg-1) ...
+Setting up python3-markdown (2.6.9-1) ...
+Setting up python3-tornado (4.5.3-1ubuntu0.2) ...
+Setting up node-less (1.6.3~dfsg-2) ...
+Setting up fonts-font-awesome (4.7.0~dfsg-3) ...
+Setting up python3-markupsafe (1.0-1build1) ...
+Setting up python3-livereload (2.5.1-1) ...
+Setting up python3-jinja2 (2.10-1ubuntu0.18.04.1) ...
+Setting up node-amdefine (0.1.0-1) ...
+Setting up python3-pyinotify (0.9.6-1) ...
+Setting up python3-pygments (2.2.0+dfsg-1ubuntu0.2) ...
+Setting up node-source-map (0.5.7+dfsg-1) ...
+Setting up mkdocs (0.16.3-2) ...
+Processing triggers for fontconfig (2.12.6-0ubuntu2) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+ardan@ardan-X8DTU:~/Documents/github.com$ 
+</code></pre>
+
+<p>Kemudian cek apakah git dan mkdocs sudah berhasil diinstall:</p>
+<pre><code>ardan@ardan-X8DTU:~/Documents/github.com/ardan-simulasi-2022$ mkdocs -V
+mkdocs, version 0.16.3
+ardan@ardan-X8DTU:~/Documents/github.com/ardan-simulasi-2022$ git version
+git version 2.17.1
+ardan@ardan-X8DTU:~/Documents/github.com/ardan-simulasi-2022$ 
+</code></pre>
+
+<p>sesuai informasi diatas maka git dan mkdocs sudah berhasil diinstall, selanjutnya bisa menggunakan perintah git dan mkdocs.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../dokumentasi-simulasi/" class="btn btn-neutral float-right" title="Dokumentasi">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../dokumentasi-simulasi/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../js/theme.js"></script>
+
+</body>
+</html>

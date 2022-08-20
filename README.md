@@ -1,4 +1,6 @@
 # ardan-simulasi-2022
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f3233298-7d3f-452a-b752-05b8abed54e9/deploy-status)](https://app.netlify.com/sites/scintillating-starship-342b80/deploys)
+
 simulasi ardan 2022
 
 - 👋 Hi, I’m @monitoringjc2020
