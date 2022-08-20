@@ -1,4 +1,4 @@
-# Dokumentasi Simulasi Linux Administration 2022
+# No: 19 - Dokumentasi Simulasi Linux Administration 2022
 
 ## Membuat repository di github
 Apabila belum punya account di github maka bisa mendaftar dengan email masing-masing, tambahkan ssh key sehingga memudahkan saat pull dan push ke github.
@@ -38,4 +38,25 @@ Nantinya setelah perubahan file markdown ini maka bisa di push ke github dengan 
 git add .
 git commit -m "komentar tentang apa yang di push"
 git push origin main
+```
+
+Sebagai Contoh berikut:
+```
+ardan@ardan-X8DTU:~/Documents/github.com/ardan-simulasi-2022$ git add .
+ardan@ardan-X8DTU:~/Documents/github.com/ardan-simulasi-2022$ git commit -m "Pertama mkdocs"
+[main 2707437] Pertama mkdocs
+ 4 files changed, 174 insertions(+)
+ create mode 100644 docs/dokumentasi-simulasi.md
+ create mode 100644 docs/index.md
+ create mode 100644 docs/install-git-mkdocs.md
+ create mode 100644 mkdocs.yml
+ardan@ardan-X8DTU:~/Documents/github.com/ardan-simulasi-2022$ git push origin main
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 3.51 KiB | 3.51 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To github.com:monitoringjc2020/ardan-simulasi-2022.git
+   eef4148..2707437  main -> main
+ardan@ardan-X8DTU:~/Documents/github.com/ardan-simulasi-2022$ 
 ```

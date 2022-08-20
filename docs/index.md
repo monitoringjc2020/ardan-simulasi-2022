@@ -1,20 +1,21 @@
-# Welcome to MkDocs
+# Ardan Simulasi 2022
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+No simulasi 19 .
 
 ## Install git & mkdocs
+Halaman instalasi git dan mkdocs `install-git-mkdocs.md`
 
+## perintah mkdocs
 
-## Commands
+* `mkdocs new [nama-dir]` - Membuat project baru.
+* `mkdocs serve` - Memnajalankan serve lokal sambil mengubah dokumen.
+* `mkdocs build` - Build atau mengubah menjadi html.
+* `mkdocs help` - Menampilkan perintah bantuan di mkdocs.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+## Layout Dokumentasi
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
+    mkdocs.yml    # File konfigurasi dari mkdocs.
     docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+        index.md                    # Halaman index saat ini.
+        install-git-mkdocs.md       # Halaman instalasi git dan mkdocs.
+        dokumentasi-simulasi.md     # Halaman dokumentasi simulasi.
