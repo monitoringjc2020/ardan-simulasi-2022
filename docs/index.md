@@ -1,6 +1,6 @@
 # Ardan Simulasi 2022
 
-No simulasi 19 .
+No simulasi 19 bisa di akses di url [Hasil Simulasi](https://scintillating-starship-342b80.netlify.app/)
 
 ## Install git & mkdocs
 Halaman instalasi git dan mkdocs `install-git-mkdocs.md`
